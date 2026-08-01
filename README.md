@@ -27,8 +27,10 @@ README.md
 ```
 
 cd into the backend in your terminal. Install all the required dependencies using this command:
-`/backend`
-`pip install -r requirements.txt`
+```
+/backend
+pip install -r requirements.txt
+```
 Now start the virtual env, and if it's not there create one using `python -m venv venv`
 for Windows Powershell
 `.\venv\Scripts\Activate.ps1`
@@ -39,8 +41,10 @@ Now run `python manage.py runserver`
 
 The backend server should now be active. Create a new terminal and now we'll start the frontend.
 cd into frontend. Install all dependencies using:
-`/frontend`
-`npm install`
+```
+/frontend
+npm install
+```
 Now run:
 `npm run dev`
 
