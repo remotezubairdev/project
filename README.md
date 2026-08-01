@@ -74,7 +74,4 @@ I used JWT Authentication to log the user in, which however is security vulnerab
 - The process for JWT is to obtain an access & refresh token from the backend, I've made it more reusable by using Axios API, so that I don't have to include the token in every one of the fetch requests.
 
 ### Backend
-The backend is fairly straightforward. With routes to Create and List Goals, Milestones, or Chores, and Update, Retrieve, or Destroy routes which take in an id as URL parameter. I've used Django's models instead of SQL code, it's more secure and easier to write (you can't inject sql). 
-
-#### Serializers
-Serializers are python classes which help to tranmit between python complex objects and json. They ensure data is sent in valid formats which adds a layer of uniformity.
+The backend is built using Django REST Framework. Each model is linked using foreign keys: Goals own multiple Milestones, while Milestones own multiple Chores. Every object also belongs to the authenticated user, ensuring that users cannot access or modify another user's data. Permissions are enforced both through JWT authentication and object-level ownership checks.
