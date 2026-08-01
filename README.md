@@ -85,3 +85,11 @@ This file consists of all our related objects: Main Goals, Milestones, Chores, a
 
 ### Conclusion
 The most challenging aspect was factoring out React components for reusability, I've found myself going against the DRY principle at instances, but I'm willing to learn more skills to reduce those redundancies. This project has surely taught me alot and has been very fruitful.
+### Appreciation to CS50
+I took CS50x in 2025, and now I've completed the final project after 
+a huge gap, as I was giving my exams. But the point is... I would like to 
+thank Professor David J. Malan, Brian Yu, Doug Lloyd, Yuliia, and every other CS50 staff for their
+dedication to building this amazing course. It's an important component of my life, and more than just 
+course. The way of teaching is what makes CS worth learning, and I hope to take it physically someday too.
+
+What started as "This is CS50", is now the end of a journey in a README on a CS platform.
