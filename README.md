@@ -84,4 +84,4 @@ I've used serializers to convert python models from the database, to JSON to be 
 This file consists of all our related objects: Main Goals, Milestones, Chores, and DailyRecords while the User model is automatically made by django
 
 ### Conclusion
-The most challenging aspect was factoring out React components for reusability, I've found myself going against the DRY principle at instances, but I'm willing to learn more skills to reduce those redundancies. This project has surely taught me alot and has been very time consuming.
+The most challenging aspect was factoring out React components for reusability, I've found myself going against the DRY principle at instances, but I'm willing to learn more skills to reduce those redundancies. This project has surely taught me alot and has been very fruitful.
