@@ -75,3 +75,13 @@ I used JWT Authentication to log the user in, which however is security vulnerab
 
 ### Backend
 The backend is built using Django REST Framework. Each model is linked using foreign keys: Goals own multiple Milestones, while Milestones own multiple Chores. Every object also belongs to the authenticated user, ensuring that users cannot access or modify another user's data. Permissions are enforced both through JWT authentication and object-level ownership checks.
+
+`` views.py ``
+This file consists of all class-based view, with abstract ways to quickly make CRUD routes.
+`` serializers.py ``
+I've used serializers to convert python models from the database, to JSON to be sent to the user.
+`` models.py ``
+This file consists of all our related objects: Main Goals, Milestones, Chores, and DailyRecords while the User model is automatically made by django
+
+### Conclusion
+The most challenging aspect was factoring out React components for reusability, I've found myself going against the DRY principle at instances, but I'm willing to learn more skills to reduce those redundancies. This project has surely taught me alot and has been by far the most difficult.
