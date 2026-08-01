@@ -18,7 +18,7 @@ These are more realistic approaches in achieving those **Main Goals**, often som
 It can be washing the dishes, or doing laundry, but in our case related to the **Milestone**. Something extremely managable and easy, and almost seeming unrelated to the Main Goal. For example, "Read one page of The Strange Theory of Light and Matter, by John Gribbin"
 
 ## Setup
-Fork this repository onto your machine. Once you've done that, head to the main directory.
+Clone this repository onto your machine. Once you've done that, head to the main directory.
 You should see a stucture like this:
 ```
 /backend
