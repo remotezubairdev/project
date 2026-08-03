@@ -22,7 +22,7 @@ const TodaysChores = () => {
         fetchChores();
     }, [])
   return (
-    <div className="w-2xl">
+    <div className="w-full">
         <div className='flex justify-between items-center border border-green-300 bg-green-200 p-3 rounded-lg mb-3'>
             <p>Create a new chore</p>
             <button onClick={() => setShowCreateChore(true)} className='button-sm flex justify-between items-center'>

@@ -47,7 +47,7 @@ const Goal = () => {
     }, [id])
 
   return (
-    <div className='rounded-[40px] border-2 border-green-500 p-3 md:p-16'>
+    <div className='rounded-xl md:rounded-[40px] border-2 border-green-500 p-3 md:p-16'>
         <div className='mb-2 border border-gray-300 shadow-sm bg-gray-50 w-max px-4 py-1 rounded-full'>
             Priority <span className='font-semibold'>{goal?.priority}</span>
         </div>

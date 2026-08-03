@@ -17,7 +17,7 @@ const MainGoalsCard = () => {
     }, [])
 
   return (
-    <section className='w-2xl'>
+    <section className='w-full'>
         <div className='flex justify-between items-center border border-blue-300 bg-blue-200 p-3 gap-x-4 rounded-lg mb-3'>
             <p>Create a new main goal</p>
             <button onClick={() => setShowCreateGoal(true)} className='button-sm-blue flex justify-between items-center'>

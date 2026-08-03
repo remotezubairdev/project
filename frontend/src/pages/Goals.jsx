@@ -74,7 +74,7 @@ const Goals = () => {
                 to={`/goals/${goal.id}`}
                 key={goal.id}
                 onClick={() => setSelectedGoal(goal.id)}
-                className={`${goal.id === selectedGoal ? "bg-green-100" : ""} border-2 border-green-500 px-12 py-2 rounded-t-xl cursor-pointer`}
+                className={`${goal.id === selectedGoal ? "bg-green-100" : ""} border-2 border-green-500 text-[12px] text-center md:text-lg px-2 md:px-12 py-0 md:py-2 rounded-t-xl cursor-pointer`}
                 >
                     {goal.title}
                 </Link>
