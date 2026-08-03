@@ -1,6 +1,7 @@
 # Beginner's Luck - CS50 Final Project
 
-#### Video Demo: 
+## Video Demo
+
 https://www.youtube.com/watch?v=3w29s6R59gU
 
 ## Introduction
