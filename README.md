@@ -1,6 +1,6 @@
 # Beginner's Luck - CS50 Final Project
 
-#### Video Demo: [Youtube Demo](https://youtu.be/3w29s6R59gU)
+#### Video Demo: https://youtu.be/3w29s6R59gU
 
 ## Introduction
 There was a book I read in January called, The Alchemist, which has this quote called: `"Every search begins with beginner's luck. And every search ends with the victor's being severely tested.` Now my question is: "When we want to achieve our goals we can be lucky, but how can someone ensure or atleast increase the chances of success after that?"
