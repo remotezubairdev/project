@@ -72,7 +72,7 @@ There is a specific order to create these entities: `Goals --> Milestones --> Ch
 #### Security Vulnerability
 I used JWT Authentication to log the user in, which however is security vulnerable in this project, since it stores your JSON Web Token for auth in your local storage. 
 #### Design Choices
-- I'm not too used to re-using React JS components, however, I've reused many CSS classes throughout the project.
+- I've reused many CSS styles throughout the project for reducing redundancy.
 - To make sure I don't refresh my app every time i make changes, I use React states which automatically re-render based on interaction
 - The process for JWT is to obtain an access & refresh token from the backend, I've made it more reusable by using Axios API, so that I don't have to include the token in every one of the fetch requests.
 
